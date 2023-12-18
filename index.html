@@ -1,22 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>OnlyForTest</title>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?78940341b7ea0421d68bc0bd39f5c5eb";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+    <meta charset="UTF-8">
+    <title>Domain Purchase/购买此域名</title>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?78940341b7ea0421d68bc0bd39f5c5eb";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
-<body/>
-<h1>
-Who are you?
-<a href="mailto:rayleesky#outlook.com" rel="nofollow">Send a message: rayleesky#outlook.com</a>
-</script>
-</h1>
+<body>
+    <div id="message-en">
+        <p>If you want to purchase this domain, please contact <a href="mailto:rayleesky#outlook.com" rel="nofollow">rayleesky#outlook.com</a>. Or visit <a href="https://www.namesilo.com/marketplace/domain/sangfor.cloud">here</a> </p>
+    </div>
+    <div id="message-zh">
+        <p>如果您想购买此域名，请联系<a href="mailto:rayleesky#outlook.com" rel="nofollow">rayleesky#outlook.com</a>，或者访问<a href="https://www.namesilo.com/marketplace/domain/sangfor.cloud">这里</a>。</p>
+    </div>
+    <div id="countdown"></div>
+    <script>
+        // Countdown timer
+        var countdown = 5;
+        var countdownElement = document.getElementById("countdown");
+        var timer = setInterval(function() {
+            countdown--;
+            countdownElement.innerHTML = "Redirecting in " + countdown + " seconds... / " + countdown + " 秒后跳转...";
+            if (countdown <= 0) {
+                clearInterval(timer);
+                window.location.href = "https://sangforcloud.com/";
+            }
+        }, 1000);
+    </script>
 </body>
 </html>
